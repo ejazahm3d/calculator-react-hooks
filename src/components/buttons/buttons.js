@@ -2,7 +2,8 @@ const buttons = [
   {
     id: "zero",
     className: "zero btn btn-light",
-    text: 0
+    text: 0,
+    value: "0"
   },
   {
     id: "one",
@@ -49,15 +50,15 @@ const buttons = [
     className: "nine btn btn-light",
     text: 9
   },
-  {
-    id: "equals",
-    className: "equals btn btn-primary",
-    text: "="
-  },
+  //   {
+  //     id: "equals",
+  //     className: "equals btn btn-primary",
+  //     text: "="
+  //   },
   {
     id: "multiply",
     className: "multiply btn btn-info",
-    text: "x"
+    text: "*"
   },
   {
     id: "add",
@@ -73,17 +74,17 @@ const buttons = [
     id: "divide",
     className: "divide btn btn-info",
     text: "/"
-  },
-  {
-    id: "clear",
-    className: "clear btn btn-danger",
-    text: 0
-  },
-  {
-    id: "decimal",
-    className: "decimal btn btn-info",
-    text: "."
   }
+  //   {
+  //     id: "clear",
+  //     className: "clear btn btn-danger",
+  //     text: "AC"
+  //   },
+  //   {
+  //     id: "decimal",
+  //     className: "decimal btn btn-info",
+  //     text: "."
+  //   }
 ];
 
 export default buttons;

@@ -3,12 +3,11 @@
   margin: auto;
 }
 .container {
-  max-width: 25vw;
-  max-height: 20rem;
+  max-width: 20rem;
 }
 .grid-container {
   display: grid;
-
+  height: 60vh;
   grid-template-areas:
     "clear clear divide multiply"
     "seven eight nine subtract"

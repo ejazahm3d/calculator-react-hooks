@@ -8,6 +8,7 @@ const Button = ({ buttons, onButtonClick }) => {
           key={button.id}
           id={button.id}
           className={button.className}
+          value={button.value}
           onClick={e => onButtonClick(e)}
         >
           {button.text}
