@@ -11,7 +11,7 @@
 
   grid-template-areas:
     "clear clear divide multiply"
-    "seven eight nine substract"
+    "seven eight nine subtract"
     "four five six add"
     "one two three equals"
     "zero zero decimal equals";
@@ -29,8 +29,8 @@
 .add {
   grid-area: add;
 }
-.substract {
-  grid-area: substract;
+.subtract {
+  grid-area: subtract;
 }
 .divide {
   grid-area: divide;
